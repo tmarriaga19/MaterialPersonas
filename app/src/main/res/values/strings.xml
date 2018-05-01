@@ -7,4 +7,12 @@
     <string name="apellido">Apellido</string>
     <string name="guardar">GUARDAR</string>
     <string name="borrar">BORRAR</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+
+    <string-array name="sexo">
+        <item>@string/masculino</item>
+        <item>@string/femenino</item>
+    </string-array>
+
 </resources>
