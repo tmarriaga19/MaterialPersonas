@@ -59,6 +59,11 @@ public class Persona {
         this.sexo = sexo;
     }
 
+    public void guardar(){
+        Datos.guardar(this);
+
+    }
+
 
 
 }
