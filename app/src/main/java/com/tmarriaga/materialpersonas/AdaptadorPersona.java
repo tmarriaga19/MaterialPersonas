@@ -20,7 +20,7 @@ public class AdaptadorPersona extends RecyclerView.Adapter<AdaptadorPersona.Pers
     private ArrayList<Persona> personas;
 
     public AdaptadorPersona(ArrayList<Persona> personas){
-        this.personas =personas
+        this.personas =personas;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class AdaptadorPersona extends RecyclerView.Adapter<AdaptadorPersona.Pers
 
     @Override
     public int getItemCount() {
-        return 0;
+        return personas.size();
     }
 
     public static class PersonaViewHolder extends RecyclerView.ViewHolder{
