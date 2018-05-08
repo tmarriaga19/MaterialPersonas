@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "516755091446",
+    "firebase_url": "https://materialpersonas-b9407.firebaseio.com",
+    "project_id": "materialpersonas-b9407",
+    "storage_bucket": "materialpersonas-b9407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516755091446:android:f63e10c7fe5c0177",
+        "android_client_info": {
+          "package_name": "com.tmarriaga.materialpersonas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516755091446-5tc84eqn0spdftq5sk1ht0tupv7j3jc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClrW_Y76dL9YHwWMW1oO5f6AYog3nQWVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -43,15 +43,16 @@ public class CrearPersonas extends AppCompatActivity {
 
 
     public void guardar(View v){
-        String ced,nomb,apelli;
+        String ced,nomb,apelli,id;
         int sexo,foto;
         foto = Datos.fotoAleatoria(fotos);
         ced = txtCedula.getText().toString();
         nomb = txtNombre.getText().toString();
         apelli = txtApellido.getText().toString();
         sexo = cmbSexo.getSelectedItemPosition();
+        id = Datos.getId();
 
-        Persona p = new Persona(foto,ced,nomb,apelli,sexo);
+        Persona p = new Persona(id,foto,ced,nomb,apelli,sexo);
         p.guardar();
 
         Snackbar.make(v,getResources().getString(R.string.mensaje_guardado_exitoso), Snackbar.LENGTH_SHORT)
